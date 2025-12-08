@@ -37,10 +37,11 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
             src={src}
             alt={`Refugio El Galpón view ${index + 1}`}
             className="w-full h-full object-cover flex-shrink-0"
+            loading="lazy"
           />
         ))}
       </div>
-      
+
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>
 
       <button

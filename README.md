@@ -1,12 +1,8 @@
 
 ## Frontend **HORNOREFUGIO**
+El siio funciona con VITE.
+Para subiar, primero se debe compilar con `npm run build` y luego se debe subir a GitHub Pages (este repositorio).
+El sitio estático se encuentra en la carpeta `docs` (que es el que levanta GitHub Pages).
 
-**Prerequisites:**  Node.js
+## hornorefugio.cl
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-# hornorefugio
