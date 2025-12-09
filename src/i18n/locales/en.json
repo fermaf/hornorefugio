@@ -1,0 +1,182 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "Our Spirit",
+        "accommodation": "Accommodation",
+        "art": "Art & Experiences",
+        "volunteer": "Volunteering",
+        "contact": "Contact"
+    },
+    "home": {
+        "seo": {
+            "title": "Home | HornoRefugio el Galpón Hornopirén",
+            "description": "Welcome to Refugio El Galpón, your home on the Carretera Austral. Camping, art, and community in Hornopirén."
+        },
+        "hero": {
+            "title": "HornoRefugio el Galpón Hornopirén",
+            "subtitle": "Your stop on the Carretera Austral. A space for meeting and adventure.",
+            "cta": "Book Your Space"
+        },
+        "community": {
+            "title": "A Community Experience",
+            "p1": "More than just accommodation or lodging, <1>Refugio el Galpón</1> is the home of backpacking souls, a meeting point for travelers from all over the world. Here, community adventure is lived, stories are shared by the warmth of the kitchen, and lasting bonds are created.",
+            "p2": "Built with love, recycled materials, and deep respect for nature, we invite you to be part of our history.",
+            "link": "Know Our Spirit"
+        }
+    },
+    "about": {
+        "seo": {
+            "title": "Our Spirit | HornoRefugio El Galpón",
+            "description": "Know the history and heart of Refugio El Galpón. A space built with love and recycled materials."
+        },
+        "hero": {
+            "title": "Our Spirit",
+            "subtitle": "The history and heart of Refugio El Galpón."
+        },
+        "story": {
+            "p1": "<1>Refugio El Galpón</1> was born in 2010 from the vision of <2>Ricardo Licanqueo</2>, who dreamed of a space for art, culture, and community in the heart of Hornopirén. Built mainly with <3>recycled materials</3> and infinite dedication, the refuge opened its doors as <4>lodging</4> to the first travelers in 2014.",
+            "p2": "Today, his family, Eva, Kika, and Danny, continue this legacy, keeping intact the founder's vision: to be an <1>\"important heritage\"</1> and a meeting point for creatives, adventurers, and dreamers.",
+            "quote": "\"You can tell every corner of the Refuge is made with love.\""
+        },
+        "commonSpaces": {
+            "title": "Common Areas: The Soul of the Meeting",
+            "subtitle": "Our spaces are designed to foster coexistence and create a true community experience."
+        }
+    },
+    "accommodation": {
+        "seo": {
+            "title": "Accommodation | HornoRefugio El Galpón",
+            "description": "Tent space and services for backpackers in Hornopirén. Live the camping experience on the Carretera Austral."
+        },
+        "hero": {
+            "title": "Accommodation for Travelers",
+            "subtitle": "The home of backpacking souls on the Carretera Austral."
+        },
+        "camping": {
+            "title": "Tent Space",
+            "p1": "Our main feature and the heart of the backpacking experience at <1>Refugio El Galpón</1> is our <2>ample space for tents</2>. In high season, the <3>camping</3> fills with travelers, cyclists, and adventurers who set up their temporary home with us, creating a vibrant community.",
+            "p2": "We seek to offer an authentic \"life experience\", where adventure and camaraderie are the most important things."
+        },
+        "services": {
+            "title": "Included Services",
+            "l1": "Access to the fully equipped community kitchen.",
+            "l2": "Shared bathrooms and hot showers.",
+            "l3": "Use of the library, smoking area, and BBQ sector.",
+            "l4": "Rest and fun in our famous giant \"Net\"."
+        },
+        "cta": "Check Availability and Rates"
+    },
+    "art": {
+        "seo": {
+            "title": "Art & Culture | HornoRefugio El Galpón",
+            "description": "Discover the murals and cultural events at El Galpón. A living canvas in Hornopirén."
+        },
+        "hero": {
+            "title": "Art & Experiences",
+            "subtitle": "Refugio El Galpón is a living canvas where artists and travelers leave their mark.",
+            "p1": "Art is the soul of <1>Refugio El Galpón</1>. Our walls tell stories through vibrant murals, created by travelers and local artists who have been part of our community over the years. Each piece is a testimony to the collaborative spirit and creativity that flows in this space, turning the refuge into a constantly evolving gallery."
+        },
+        "cultural": {
+            "title": "A Cultural Benchmark",
+            "subtitle": "More than a refuge, a meeting point for the community.",
+            "p1": "The Refuge has become an \"iconic cultural benchmark\" in Hornopirén. We celebrate different types of events: birthdays, concerts, craft fairs, and artistic gatherings that enrich local life and the experience of our visitors."
+        }
+    },
+    "volunteer": {
+        "seo": {
+            "title": "Volunteering | HornoRefugio El Galpón",
+            "description": "Join our family and live a deep immersion in the spirit of El Galpón. Volunteering program in Hornopirén."
+        },
+        "hero": {
+            "title": "Volunteering Program",
+            "subtitle": "Live a deep immersion in the spirit of Refugio El Galpón."
+        },
+        "join": {
+            "title": "Join Our Family",
+            "p1": "We offer a unique opportunity for travelers looking for a \"life experience\" and wishing to connect more deeply with our project. In exchange for your help, you will integrate into our community and live the day-to-day life of the refuge."
+        },
+        "exchange": {
+            "title": "The Exchange",
+            "l1": "<1>Your Contribution:</1> 4-5 hours of work daily. Tasks vary and may include maintenance, chopping wood, painting, cleaning, or helping in the greenhouses.",
+            "l2": "<1>Our Contribution:</1> Accommodation (tent space or mattress depending on availability) and homemade food prepared by Eva.",
+            "p1": "Volunteering is an excellent way to share your skills, learn new ones, and be a fundamental part of the energy that makes El Galpón such a special place."
+        },
+        "cta": "Apply for Volunteering"
+    },
+    "contact": {
+        "seo": {
+            "title": "Contact | HornoRefugio El Galpón",
+            "description": "Contact us for your stay in Hornopirén. Location, phone, and contact form."
+        },
+        "hero": {
+            "title": "Location and Contact",
+            "subtitle": "Find us on your trip along the Carretera Austral and contact us for any inquiries."
+        },
+        "address": {
+            "title": "Our Address",
+            "l1": "Refugio El Galpón",
+            "l2": "Hornopirén, Hualaihué Commune",
+            "l3": "Los Lagos Region, Chile"
+        },
+        "direct": {
+            "title": "Direct Contact",
+            "email": "Email:",
+            "whatsapp": "WhatsApp:",
+            "phones": "Phones:"
+        },
+        "map": {
+            "caption": "Find us in Hornopirén, Carretera Austral."
+        },
+        "form": {
+            "title": "Send us a Message",
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "submit": "Send Inquiry"
+        }
+    },
+    "seo": {
+        "defaultDescription": "Refugio El Galpón in Hornopirén. Accommodation for backpackers, camping, art, and culture on the Carretera Austral.",
+        "defaultKeywords": "Hornopirén, Accommodation, Camping, Refuge, Carretera Austral, Backpackers, Hostel, Art, Culture"
+    },
+    "commonSpaces": {
+        "kitchen": {
+            "name": "Fully Equipped Kitchen",
+            "desc": "A spacious common area to cook, share, and meet other travelers."
+        },
+        "showers": {
+            "name": "Hot Showers",
+            "desc": "Essential to recharge after a day of adventure."
+        },
+        "bbq": {
+            "name": "BBQ Area",
+            "desc": "Ideal for enjoying an outdoor barbecue with new friends."
+        },
+        "library": {
+            "name": "Library",
+            "desc": "A quiet corner to read a book and relax."
+        },
+        "hammock": {
+            "name": "The Giant Net",
+            "desc": "Our main attraction: a giant hammock to rest and have fun."
+        }
+    },
+    "header": {
+        "brand": "HornoRefugio",
+        "openMenu": "Open main menu"
+    },
+    "bitcoinBanner": {
+        "accept": "We accept Bitcoin!",
+        "discount": "Get a <1>5% discount</1> paying with <2>Bitcoin ₿</2>"
+    },
+    "footer": {
+        "tagline": "Your home on the Carretera Austral.",
+        "location": "Hornopirén, Los Lagos Region, Chile.",
+        "contact": "Contact",
+        "email": "Email:",
+        "whatsapp": "WhatsApp:",
+        "phones": "Phones:",
+        "followUs": "Follow us",
+        "copyright": "© {{year}} HornoRefugio el Galpón Hornopirén. Made with love.😉"
+    }
+}

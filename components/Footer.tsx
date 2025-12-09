@@ -1,24 +1,36 @@
-
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="bg-emerald-900 text-stone-200">
       <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
             <h3 className="text-xl font-bold text-white mb-2">HornoRefugio el Galpón Hornopirén</h3>
-            <p className="text-sm text-stone-300">Tu hogar en la Carretera Austral.</p>
-            <p className="text-sm text-stone-300">Hornopirén, Región de Los Lagos, Chile.</p>
+            <p className="text-sm text-stone-300">{t('footer.tagline')}</p>
+            <p className="text-sm text-stone-300">{t('footer.location')}</p>
           </div>
           <div>
-            <h3 className="text-lg font-semibold text-white mb-2">Contacto</h3>
-            <p className="text-sm text-stone-300">Email: <a href="mailto:contacto@hornorefugio.cl" className="hover:text-amber-400">contacto@hornorefugio.cl</a></p>
-            <p className="text-sm text-stone-300">WhatsApp: <a href="https://wa.me/56942028429" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400">+56 942028429</a></p>
-            <p className="text-sm text-stone-300">Teléfonos: <a href="tel:+56942028429" className="hover:text-amber-400">+56 942028429 (Eva)</a> / <a href="tel:+56938853446" className="hover:text-amber-400">+56 938853446 (Kika)</a></p>
+            <h3 className="text-lg font-semibold text-white mb-4">{t('footer.contact')}</h3>
+            <div className="flex flex-col space-y-3 text-sm text-stone-300">
+              <p>
+                <span className="font-bold text-stone-100">{t('footer.email')}</span> <a href="mailto:contacto@hornorefugio.cl" className="hover:text-amber-400 py-1 block md:inline">contacto@hornorefugio.cl</a>
+              </p>
+              <p>
+                <span className="font-bold text-stone-100">{t('footer.whatsapp')}</span> <a href="https://wa.me/56942028429" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 py-1 block md:inline">+56 942028429</a>
+              </p>
+              <div className="flex flex-col">
+                <span className="mb-1 font-bold text-stone-100">{t('footer.phones')}</span>
+                <a href="tel:+56942028429" className="hover:text-amber-400 py-1 pl-2 block">+56 942028429 (Eva)</a>
+                <a href="tel:+56938853446" className="hover:text-amber-400 py-1 pl-2 block">+56 938853446 (Kika)</a>
+              </div>
+            </div>
           </div>
           <div>
-            <h3 className="text-lg font-semibold text-white mb-2">Síguenos</h3>
+            <h3 className="text-lg font-semibold text-white mb-2">{t('footer.followUs')}</h3>
             <div className="flex justify-center md:justify-start space-x-4">
               <a href="https://www.instagram.com/refugioelgalpon7/" target="_blank" rel="noopener noreferrer" className="text-stone-300 hover:text-amber-400">
                 <span className="sr-only">Instagram</span>
@@ -38,7 +50,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="mt-8 border-t border-emerald-800 pt-8 text-center text-sm text-stone-400">
-          <p>&copy; {new Date().getFullYear()} HornoRefugio el Galpón Hornopiren. Hecho con amor.😉</p>
+          <p>{t('footer.copyright', { year: new Date().getFullYear() })}</p>
         </div>
       </div>
     </footer>

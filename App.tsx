@@ -20,10 +20,13 @@ const ScrollToTop: React.FC = () => {
   return null;
 };
 
+import BitcoinBanner from './components/BitcoinBanner';
+
 const App: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <ScrollToTop />
+      <BitcoinBanner />
       <Header />
       <main className="flex-grow">
         <Routes>

@@ -3,17 +3,20 @@ import React from 'react';
 import Section from '../components/Section';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import { useTranslation, Trans } from 'react-i18next';
 
 const AccommodationPage: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <SEO
-        title="Alojamiento | Refugio El Galpón"
-        description="Espacio para carpas y servicios para mochileros en Hornopirén. Vive la experiencia de camping en la Carretera Austral."
+        title={t('accommodation.seo.title')}
+        description={t('accommodation.seo.description')}
       />
       <Section
-        title="Alojamiento para Viajeros"
-        subtitle="El hogar de las almas mochileras en la Carretera Austral."
+        title={t('accommodation.hero.title')}
+        subtitle={t('accommodation.hero.subtitle')}
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
@@ -25,26 +28,26 @@ const AccommodationPage: React.FC = () => {
             />
           </div>
           <div className="prose prose-lg text-stone-700 max-w-none">
-            <h3>Espacio para Carpas</h3>
+            <h3>{t('accommodation.camping.title')}</h3>
             <p>
-              Nuestra principal característica y el corazón de la experiencia mochilera en <strong>HornoRefugio El Galpón</strong> es nuestro <strong>amplio espacio para carpas</strong>. En temporada alta, el <strong>camping</strong> se llena de viajeros, ciclistas y aventureros que montan su hogar temporal con nosotros, creando una vibrante comunidad.
+              <Trans i18nKey="accommodation.camping.p1" components={{ 1: <strong></strong>, 2: <strong></strong>, 3: <strong></strong> }} />
             </p>
             <p>
-              Buscamos ofrecer una auténtica "experiencia de vida", donde la aventura y la camaradería son lo más importante.
+              {t('accommodation.camping.p2')}
             </p>
-            <h3>Servicios Incluidos</h3>
+            <h3>{t('accommodation.services.title')}</h3>
             <ul>
-              <li>Acceso a la cocina comunitaria totalmente equipada.</li>
-              <li>Baños compartidos y duchas con agua caliente.</li>
-              <li>Uso de la biblioteca, área de fumadores y sector de asados.</li>
-              <li>Descanso y diversión en nuestra famosa "Malla" gigante.</li>
+              <li>{t('accommodation.services.l1')}</li>
+              <li>{t('accommodation.services.l2')}</li>
+              <li>{t('accommodation.services.l3')}</li>
+              <li>{t('accommodation.services.l4')}</li>
             </ul>
             <div className="mt-8">
               <Link
                 to="/contacto"
                 className="inline-block bg-amber-600 text-white font-bold py-3 px-8 rounded-full hover:bg-amber-700 transition-transform transform hover:scale-105"
               >
-                Consultar Disponibilidad y Tarifas
+                {t('accommodation.cta')}
               </Link>
             </div>
           </div>

@@ -1,10 +1,13 @@
 
 import React, { useState } from 'react';
 import { Link, NavLink as RouterNavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { NAV_LINKS } from '../constants';
+import LanguageSelector from './LanguageSelector';
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { t } = useTranslation();
 
   return (
     <header className="bg-emerald-900 shadow-md sticky top-0 z-50">
@@ -12,29 +15,34 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
             <Link to="/" className="text-white text-2xl font-bold hover:text-amber-400 transition-colors">
-              HornoRefugio
+              {t('header.brand')}
             </Link>
           </div>
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
+          <div className="hidden lg:block">
+            <div className="ml-10 flex items-center space-x-4">
               {NAV_LINKS.map((link) => (
                 <RouterNavLink
                   key={link.path}
                   to={link.path}
                   className={({ isActive }) =>
-                    `px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                      isActive
-                        ? 'bg-emerald-700 text-white'
-                        : 'text-stone-200 hover:bg-emerald-800 hover:text-white'
+                    `px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive
+                      ? 'bg-emerald-700 text-white'
+                      : 'text-stone-200 hover:bg-emerald-800 hover:text-white'
                     }`
                   }
                 >
-                  {link.label}
+                  {t(link.label)}
                 </RouterNavLink>
               ))}
+              <div className="ml-4 pl-4 border-l border-emerald-700">
+                <LanguageSelector />
+              </div>
             </div>
           </div>
-          <div className="-mr-2 flex md:hidden">
+          <div className="-mr-2 flex lg:hidden">
+            <div className="mr-4 flex items-center">
+              <LanguageSelector />
+            </div>
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
@@ -42,7 +50,7 @@ const Header: React.FC = () => {
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
-              <span className="sr-only">Open main menu</span>
+              <span className="sr-only">{t('header.openMenu')}</span>
               {!isOpen ? (
                 <svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -58,7 +66,7 @@ const Header: React.FC = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden" id="mobile-menu">
+        <div className="lg:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {NAV_LINKS.map((link) => (
               <RouterNavLink
@@ -66,14 +74,13 @@ const Header: React.FC = () => {
                 to={link.path}
                 onClick={() => setIsOpen(false)}
                 className={({ isActive }) =>
-                  `block px-3 py-2 rounded-md text-base font-medium transition-colors ${
-                    isActive
-                      ? 'bg-emerald-700 text-white'
-                      : 'text-stone-200 hover:bg-emerald-800 hover:text-white'
+                  `block px-3 py-2 rounded-md text-base font-medium transition-colors ${isActive
+                    ? 'bg-emerald-700 text-white'
+                    : 'text-stone-200 hover:bg-emerald-800 hover:text-white'
                   }`
                 }
               >
-                {link.label}
+                {t(link.label)}
               </RouterNavLink>
             ))}
           </div>

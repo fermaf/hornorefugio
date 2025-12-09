@@ -1,0 +1,182 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "about": "Nuestro Espíritu",
+        "accommodation": "Alojamiento",
+        "art": "Arte y Experiencias",
+        "volunteer": "Voluntariado",
+        "contact": "Contacto"
+    },
+    "home": {
+        "seo": {
+            "title": "Inicio | HornoRefugio el Galpón Hornopirén",
+            "description": "Bienvenido a Refugio El Galpón, tu hogar en la Carretera Austral. Camping, arte y comunidad en Hornopirén."
+        },
+        "hero": {
+            "title": "HornoRefugio el Galpón Hornopirén",
+            "subtitle": "Tu parada en la Carretera Austral. Un espacio de encuentro y aventura.",
+            "cta": "Reserva tu Espacio"
+        },
+        "community": {
+            "title": "Una Experiencia Comunitaria",
+            "p1": "Más que un simple alojamiento u hospedaje, <1>Refugio el Galpón</1> es el hogar de las almas mochileras, un punto de encuentro para viajeros de todo el mundo. Aquí se vive la aventura comunitaria, se comparten historias al calor de la cocina y se crean lazos que perduran.",
+            "p2": "Construido con amor, materiales reciclados y un profundo respeto por la naturaleza, te invitamos a ser parte de nuestra historia.",
+            "link": "Conoce Nuestro Espíritu"
+        }
+    },
+    "about": {
+        "seo": {
+            "title": "Nuestro Espíritu | HornoRefugio El Galpón",
+            "description": "Conoce la historia y el corazón de Refugio El Galpón. Un espacio construido con amor y materiales reciclados."
+        },
+        "hero": {
+            "title": "Nuestro Espíritu",
+            "subtitle": "La historia y el corazón de Refugio El Galpón."
+        },
+        "story": {
+            "p1": "El <1>Refugio El Galpón</1> nació en 2010 de la visión de <2>Ricardo Licanqueo</2>, quien soñó con un espacio para el arte, la cultura y la comunidad en el corazón de Hornopirén. Construido principalmente con <3>materiales reciclados</3> y una dedicación infinita, el refugio abrió sus puertas como <4>hospedaje</4> a los primeros viajeros en 2014.",
+            "p2": "Hoy, su familia, Eva, Kika y Danny, continúan este legado, conservando intacta la visión de su fundador: ser un <1>\"importante patrimonio\"</1> y un punto de encuentro para creativos, aventureros y soñadores.",
+            "quote": "\"Cada rincón del Refugio se nota que está hecho con amor.\""
+        },
+        "commonSpaces": {
+            "title": "Zonas Comunes: El Alma del Encuentro",
+            "subtitle": "Nuestros espacios están diseñados para fomentar la convivencia y crear una verdadera experiencia comunitaria."
+        }
+    },
+    "accommodation": {
+        "seo": {
+            "title": "Alojamiento | HornoRefugio El Galpón",
+            "description": "Espacio para carpas y servicios para mochileros en Hornopirén. Vive la experiencia de camping en la Carretera Austral."
+        },
+        "hero": {
+            "title": "Alojamiento para Viajeros",
+            "subtitle": "El hogar de las almas mochileras en la Carretera Austral."
+        },
+        "camping": {
+            "title": "Espacio para Carpas",
+            "p1": "Nuestra principal característica y el corazón de la experiencia mochilera en <1>Refugio El Galpón</1> es nuestro <2>amplio espacio para carpas</2>. En temporada alta, el <3>camping</3> se llena de viajeros, ciclistas y aventureros que montan su hogar temporal con nosotros, creando una vibrante comunidad.",
+            "p2": "Buscamos ofrecer una auténtica \"experiencia de vida\", donde la aventura y la camaradería son lo más importante."
+        },
+        "services": {
+            "title": "Servicios Incluidos",
+            "l1": "Acceso a la cocina comunitaria totalmente equipada.",
+            "l2": "Baños compartidos y duchas con agua caliente.",
+            "l3": "Uso de la biblioteca, área de fumadores y sector de asados.",
+            "l4": "Descanso y diversión en nuestra famosa \"Malla\" gigante."
+        },
+        "cta": "Consultar Disponibilidad y Tarifas"
+    },
+    "art": {
+        "seo": {
+            "title": "Arte y Cultura | HornoRefugio El Galpón",
+            "description": "Descubre los murales y eventos culturales en El Galpón. Un lienzo vivo en Hornopirén."
+        },
+        "hero": {
+            "title": "Arte y Experiencias",
+            "subtitle": "Refugio El Galpón es un lienzo vivo donde artistas y viajeros dejan su huella.",
+            "p1": "El arte es el alma de <1>Refugio El Galpón</1>. Nuestras paredes cuentan historias a través de murales vibrantes, creados por viajeros y artistas locales que han formado parte de nuestra comunidad a lo largo de los años. Cada pieza es un testimonio del espíritu colaborativo y la creatividad que fluye en este espacio, convirtiendo el refugio en una galería en constante evolución."
+        },
+        "cultural": {
+            "title": "Un Centro Cultural Referente",
+            "subtitle": "Más que un refugio, un punto de encuentro para la comunidad.",
+            "p1": "El Refugio se ha transformado en un \"centro cultural icono referente\" en Hornopirén. Celebramos distintos tipos de eventos: cumpleaños, conciertos, ferias de artesanía y encuentros artísticos que enriquecen la vida local y la experiencia de nuestros visitantes."
+        }
+    },
+    "volunteer": {
+        "seo": {
+            "title": "Voluntariado | HornoRefugio El Galpón",
+            "description": "Únete a nuestra familia y vive una inmersión profunda en el espíritu de El Galpón. Programa de voluntariado en Hornopirén."
+        },
+        "hero": {
+            "title": "Programa de Voluntariado",
+            "subtitle": "Vive una inmersión profunda en el espíritu de Refugio El Galpón."
+        },
+        "join": {
+            "title": "Únete a Nuestra Familia",
+            "p1": "Ofrecemos una oportunidad única para viajeros que buscan una \"experiencia de vida\" y desean conectar de manera más profunda con nuestro proyecto. A cambio de tu ayuda, te integrarás a nuestra comunidad y vivirás el día a día del refugio."
+        },
+        "exchange": {
+            "title": "El Intercambio",
+            "l1": "<1>Tu Aporte:</1> 4-5 horas diarias de trabajo. Las tareas son variadas y pueden incluir mantenimiento, cortar leña, pintar, limpiar, o ayudar en los invernaderos.",
+            "l2": "<1>Nuestro Aporte:</1> Alojamiento (espacio para carpa o colchoneta según disponibilidad) y alimentación casera preparada por Eva.",
+            "p1": "El voluntariado es una excelente manera de compartir tus habilidades, aprender nuevas y ser parte fundamental de la energía que hace de El Galpón un lugar tan especial."
+        },
+        "cta": "Postula para Voluntariado"
+    },
+    "contact": {
+        "seo": {
+            "title": "Contacto | HornoRefugio El Galpón",
+            "description": "Contáctanos para tu estadía en Hornopirén. Ubicación, teléfono y formulario de contacto."
+        },
+        "hero": {
+            "title": "Ubicación y Contacto",
+            "subtitle": "Encuéntranos en tu viaje por la Carretera Austral y contáctanos para cualquier consulta."
+        },
+        "address": {
+            "title": "Nuestra Dirección",
+            "l1": "Refugio El Galpón",
+            "l2": "Hornopirén, Comuna de Hualaihué",
+            "l3": "Región de Los Lagos, Chile"
+        },
+        "direct": {
+            "title": "Contacto Directo",
+            "email": "Email:",
+            "whatsapp": "WhatsApp:",
+            "phones": "Teléfonos:"
+        },
+        "map": {
+            "caption": "Encuéntranos en Hornopirén, Carretera Austral."
+        },
+        "form": {
+            "title": "Envíanos un Mensaje",
+            "name": "Nombre",
+            "email": "Email",
+            "message": "Mensaje",
+            "submit": "Enviar Consulta"
+        }
+    },
+    "seo": {
+        "defaultDescription": "Refugio El Galpón en Hornopirén. Alojamiento para mochileros, camping, arte y cultura en la Carretera Austral.",
+        "defaultKeywords": "Hornopirén, Alojamiento, Camping, Refugio, Carretera Austral, Mochileros, Hostal, Arte, Cultura"
+    },
+    "commonSpaces": {
+        "kitchen": {
+            "name": "Cocina Equipada",
+            "desc": "Un espacio amplio y común para cocinar, compartir y conocer a otros viajeros."
+        },
+        "showers": {
+            "name": "Duchas con Agua Caliente",
+            "desc": "Esenciales para reponer energías después de un día de aventura."
+        },
+        "bbq": {
+            "name": "Sector para Asados",
+            "desc": "Ideal para disfrutar de una parrillada al aire libre con nuevos amigos."
+        },
+        "library": {
+            "name": "Biblioteca",
+            "desc": "Un rincón tranquilo para leer un libro y relajarse."
+        },
+        "hammock": {
+            "name": "La Malla Gigante",
+            "desc": "Nuestra atracción principal: una hamaca gigante para descansar y divertirse."
+        }
+    },
+    "header": {
+        "brand": "HornoRefugio",
+        "openMenu": "Abrir menú principal"
+    },
+    "bitcoinBanner": {
+        "accept": "¡Aceptamos Bitcoin!",
+        "discount": "Obtén un <1>5% de descuento</1> pagando con <2>Bitcoin ₿</2>"
+    },
+    "footer": {
+        "tagline": "Tu hogar en la Carretera Austral.",
+        "location": "Hornopirén, Región de Los Lagos, Chile.",
+        "contact": "Contacto",
+        "email": "Email:",
+        "whatsapp": "WhatsApp:",
+        "phones": "Teléfonos:",
+        "followUs": "Síguenos",
+        "copyright": "© {{year}} HornoRefugio el Galpón Hornopirén. Hecho con amor.😉"
+    }
+}
